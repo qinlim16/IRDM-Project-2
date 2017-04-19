@@ -41,19 +41,19 @@ output_y_path_DIR = folder + "trainy.npy"
 np.save(output_x_path_DIR, np.reshape(x,[-1,136]))
 np.save(output_y_path_DIR, new_y)
 
-input_path_DIR2 = folder + "train.txt"
+input_path_DIR2 = folder + "test.txt"
 [x2, y2] = readSplit(input_path_DIR2)
 new_y2 = convertToOne(y2)
-output_x_path_DIR2 = folder + "trainx.npy"
-output_y_path_DIR2 = folder + "trainy.npy"
+output_x_path_DIR2 = folder + "testx.npy"
+output_y_path_DIR2 = folder + "testy.npy"
 np.save(output_x_path_DIR2, np.reshape(x2,[-1,136]))
 np.save(output_y_path_DIR2, new_y2)
 
-input_path_DIR3 = folder + "train.txt"
+input_path_DIR3 = folder + "vali.txt"
 [x3, y3] = readSplit(input_path_DIR3)
 new_y3 = convertToOne(y3)
-output_x_path_DIR3 = folder + "trainx.npy"
-output_y_path_DIR3 = folder + "trainy.npy"
+output_x_path_DIR3 = folder + "validx.npy"
+output_y_path_DIR3 = folder + "validy.npy"
 np.save(output_x_path_DIR3, np.reshape(x3,[-1,136]))
 np.save(output_y_path_DIR3, new_y3)
 

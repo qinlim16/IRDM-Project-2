@@ -6,7 +6,7 @@ IRDM Project for Group 26
 * math
 * Tensorflow 0.12
 
-**Python Files - All files are run on folder 1 **
+**Python Files : All files are run on folder 1**
 * preprocessing.py - This file takes in the specified train.txt/test.txt/vali.txt file and generates 2 arrays containing the true labels and the feature vector which will be used in the logistic regression file. 
 * logistic_regression.py - This file contains our implementation of the logistic regression classifier. It will save an array of the true relevance scores(truelabel.npy) and predicted relevance scores(predlabel.npy) which will be used to calculate NDCG@10 and ERR@10. The best model after the specfied epoch run is saved.
 * logistic_regression_hiddenlayer.py - This file contains our implementation of the logistic regression classifier. It will save an array of the true relevance scores(truelabel_hidden.npy) and predicted relevance scores(predlabel_hidden.npy) which will be used to calculate NDCG@10 and ERR@10. The best model after the specfied epoch run is saved.

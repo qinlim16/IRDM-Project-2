@@ -7,6 +7,7 @@ IRDM Project for Group 26
 * Tensorflow 0.12
 
 **Python Files : All files are run on folder 1**
+* subsampling.py - This file takes in the specified train.txt/test.txt/vali.txt file and performs subsampling to extract 10% of the original dataset. This subsampled data will be used for training RankNet which is to computationally expensive to tune on the full dataset.
 * preprocessing.py - This file takes in the specified train.txt/test.txt/vali.txt file and generates 2 arrays containing the true labels and the feature vector which will be used in the logistic regression file. 
 * logistic_regression.py - This file contains our implementation of the logistic regression classifier. It will save an array of the true relevance scores(truelabel.npy) and predicted relevance scores(predlabel.npy) which will be used to calculate NDCG@10 and ERR@10. The best model after the specfied epoch run is saved.
 * logistic_regression_hiddenlayer.py - This file contains our implementation of the logistic regression classifier. It will save an array of the true relevance scores(truelabel_hidden.npy) and predicted relevance scores(predlabel_hidden.npy) which will be used to calculate NDCG@10 and ERR@10. The best model after the specfied epoch run is saved.

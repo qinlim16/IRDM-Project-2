@@ -15,8 +15,8 @@ IRDM Project for Group 26
 
 ## Usage
 ### Python Files : All files are run on folder 1**
-* subsampling.py - This file takes in the specified train.txt/test.txt/vali.txt file and performs subsampling to extract 10% of the original dataset. This subsampled data will be used for training RankNet which is to computationally expensive to tune on the full dataset.
-* preprocessing.py - This file takes in the specified train.txt/test.txt/vali.txt file and generates 2 arrays containing the true labels and the feature vector which will be used in the logistic regression file. 
+* subsampling.py - This file takes in _train.txt , test.txt, vali.txt file_ and performs subsampling to extract 10% of the original dataset. This subsampled data will be used for training RankNet which is to computationally expensive to tune on the full dataset.
+* preprocessing.py - This file takes in _train.txt , test.txt, vali.txt file_ and generates 2 arrays containing the true labels and the feature vector for each file which will be used in the logistic regression file. 
 * logistic_regression.py - This file contains our implementation of the logistic regression classifier. It will save an array of the true relevance scores(truelabel.npy) and predicted relevance scores(predlabel.npy) which will be used to calculate NDCG@10 and ERR@10. The best model after the specfied epoch run is saved.
 * logistic_regression_hiddenlayer.py - This file contains our implementation of the logistic regression classifier. It will save an array of the true relevance scores(truelabel_hidden.npy) and predicted relevance scores(predlabel_hidden.npy) which will be used to calculate NDCG@10 and ERR@10. The best model after the specfied epoch run is saved.
 * ERR.py - This file calculates the ERR@10 scores using the array of true labels and predicted labels calculated in the earlier functions. Calculates the ERR@10 per query id and outputs the average over all the query ids. 

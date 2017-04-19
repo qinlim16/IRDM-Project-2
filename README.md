@@ -14,7 +14,7 @@ IRDM Project for Group 26
 * Copy the datatest into the 5 folders and run preprocessing.py on each of the 5 folders by changing the _folder_ directiory in the script
 
 ## Usage
-### Python Files : All files are run on folder 1**
+### Python Files : All files are run on folder 1
 * subsampling.py - This file takes in _train.txt , test.txt, vali.txt file_ and performs subsampling to extract 10% of the original dataset. This subsampled data will be used for training RankNet which is to computationally expensive to tune on the full dataset.
 * preprocessing.py - This file takes in _train.txt , test.txt, vali.txt file_ and generates 2 arrays containing the true labels and the feature vector for each file which will be used in the logistic regression file. 
 * logistic_regression.py - This file contains our implementation of the logistic regression classifier. It will save an array of the true relevance scores(truelabel.npy) and predicted relevance scores(predlabel.npy) which will be used to calculate NDCG@10 and ERR@10. The best model after the specfied epoch run is saved.

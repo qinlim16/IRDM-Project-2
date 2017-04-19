@@ -4,13 +4,14 @@ IRDM Project for Group 26
 ## Getting Started
 
 ### Requirments
+* Python 2.7
 * numpy
 * math
 * Tensorflow 0.12
 
 ### Dataset
 * Download MSLR-WEB10K dataset from https://www.microsoft.com/en-us/research/project/mslr/ 
-* Copy the datatest into the 5 folders and run preprocessing.py on each of the 5 folders by changing the folder directiory in the script
+* Copy the datatest into the 5 folders and run preprocessing.py on each of the 5 folders by changing the _folder_ directiory in the script
 
 ## Usage
 ### Python Files : All files are run on folder 1**

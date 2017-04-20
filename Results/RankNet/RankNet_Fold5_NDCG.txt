@@ -1,5 +1,5 @@
 ## RankNet
-## Epochs = 100
+## Epochs = 50
 ## No. of features = 136
 ## No. of hidden layers = 1
 ## Layer 1: 20 neurons

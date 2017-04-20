@@ -21,6 +21,7 @@ IRDM Project for Group 26
 * logistic_regression_hiddenlayer.py - This file contains our implementation of the logistic regression classifier. It will save an array of the true relevance scores(truelabel_hidden.npy) and predicted relevance scores(predlabel_hidden.npy) which will be used to calculate NDCG@10 and ERR@10. The best model after the specfied epoch run is saved.
 * ERR.py - This file calculates the ERR@10 scores using the array of true labels and predicted labels calculated in the earlier functions. Calculates the ERR@10 per query id and outputs the average over all the query ids. 
 * NDCG.py - This file calculates the NDCG@10 scores using the array of true labels and predicted labels calculated in the earlier functions. Calculates the NDCG@10 per query id and outputs the average over all the query ids. 
+* MAP.py - This file calculates the MAP scores. Implemented but not used for comparison because only suitable for binary relevance and our dataset contains 5 relevance labels. 
 
 ### Ranklib 
 * Using the Ranklib Library from the Lemur Project, the RankNet, LamdaMART and AdaRank models are run on our data. 

@@ -31,6 +31,6 @@ java -jar RankLib-2.8.jar -train MSLR-WEB10K/Fold1/train.txt -test MSLR-WEB10K/F
 
 ## Authors 
 * **Lim Qin Zhi ucabqzl@ucl.ac.uk**
-* **ZhaoFeng Jin zhaofeng.jin.16@ucl.ac.uk**
 * **Xin Wei ucakxwe@ucl.ac.uk**
 * **Jinhang Zhang ucakjjz@ucl.ac.uk**
+* **ZhaoFeng Jin zhaofeng.jin.16@ucl.ac.uk**

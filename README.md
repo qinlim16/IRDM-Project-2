@@ -37,7 +37,7 @@ java -jar RankLib-2.8.jar -train MSLR-WEB10K/Fold1/train.txt -test MSLR-WEB10K/F
 * **ZhaoFeng Jin zhaofeng.jin.16@ucl.ac.uk**
 
 ## Acknowlegements
-* [Microsoft MSLR dataset] (https://www.microsoft.com/en-us/research/project/mslr/) 
-* The Lemur Project [RankLib Package] (https://sourceforge.net/p/lemur/wiki/RankLib/)  
-* [Tensorflow MNIST Tutorial] (https://www.tensorflow.org/get_started/mnist/beginners) 
-* COMPGI15 Lecturers and TAs for their valuable advice and solution to our queries
+* [Microsoft MSLR dataset](https://www.microsoft.com/en-us/research/project/mslr/) 
+* The Lemur Project [RankLib Package](https://sourceforge.net/p/lemur/wiki/RankLib/)  
+* [Tensorflow MNIST Tutorial](https://www.tensorflow.org/get_started/mnist/beginners) 
+* COMPGI15 Lecturers and Teaching Assistants for their valuable advice and solution to our queries 

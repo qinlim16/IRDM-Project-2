@@ -1,5 +1,5 @@
 # IRDM-Project-2
-IRDM Project for Group 26 
+This is the accompanying code repository for COMPGI15 Information Retrieval and Data Mining Project 2017 for Group 26 
 
 ## Getting Started
 
@@ -8,6 +8,7 @@ IRDM Project for Group 26
 * numpy
 * math
 * Tensorflow 0.12
+* RankLib 2.8
 
 ### Dataset
 * Download MSLR-WEB10K dataset from https://www.microsoft.com/en-us/research/project/mslr/ 
@@ -34,3 +35,9 @@ java -jar RankLib-2.8.jar -train MSLR-WEB10K/Fold1/train.txt -test MSLR-WEB10K/F
 * **Xin Wei ucakxwe@ucl.ac.uk**
 * **Jinhang Zhang ucakjjz@ucl.ac.uk**
 * **ZhaoFeng Jin zhaofeng.jin.16@ucl.ac.uk**
+
+## Acknowlegements
+* [Microsoft MSLR dataset] (https://www.microsoft.com/en-us/research/project/mslr/) 
+* The Lemur Project [RankLib Package] (https://sourceforge.net/p/lemur/wiki/RankLib/)  
+* [Tensorflow MNIST Tutorial] (https://www.tensorflow.org/get_started/mnist/beginners) 
+* COMPGI15 Lecturers and TAs for their valuable advice and solution to our queries

@@ -1,0 +1,138 @@
+
+Discard orig. features
+Training data:	MSLR-WEB10K/Fold2/restructure_train.txt
+Test data:	MSLR-WEB10K/Fold2/restructure_test.txt
+Validation data:	MSLR-WEB10K/Fold2/restructure_vali.txt
+Feature vector representation: Dense.
+Ranking method:	RankNet
+Feature description file:	Unspecified. All features will be used.
+Train metric:	ERR@10
+Test metric:	ERR@10
+Highest relevance label (to compute ERR): 4
+Feature normalization: No
+
+[+] RankNet's Parameters:
+No. of epochs: 100
+No. of hidden layers: 1
+No. of hidden nodes per layer: 10
+Learning rate: 0.05
+
+Reading feature file [MSLR-WEB10K/Fold2/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_train.txt]... [Done.]            
+(5947 ranked lists, 71669 entries read)
+Reading feature file [MSLR-WEB10K/Fold2/restructure_vali.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_vali.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_vali.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_vali.txt]... [Done.]            
+(1980 ranked lists, 24153 entries read)
+Reading feature file [MSLR-WEB10K/Fold2/restructure_test.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_test.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_test.txt]: 0... Reading feature file [MSLR-WEB10K/Fold2/restructure_test.txt]... [Done.]            
+(1979 ranked lists, 24199 entries read)
+Initializing... [Done]
+-----------------------------------------
+Training starts...
+--------------------------------------------------
+#epoch  | % mis-ordered  | ERR@10-T  | ERR@10-V  | 
+        |   pairs        |           |           | 
+--------------------------------------------------
+1       | 0.0012         | 0.1293    | 0.1308    | 
+2       | 0.0012         | 0.1293    | 0.131     | 
+3       | 0.0016         | 0.1293    | 0.1308    | 
+4       | 0.0021         | 0.1295    | 0.1308    | 
+5       | 0.0021         | 0.1295    | 0.1307    | 
+6       | 0.0037         | 0.1298    | 0.1306    | 
+7       | 0.0306         | 0.1369    | 0.1383    | 
+8       | 0.0048         | 0.1297    | 0.1308    | 
+9       | 0.0015         | 0.1293    | 0.1307    | 
+10      | 0.0015         | 0.1293    | 0.1309    | 
+11      | 0.0019         | 0.1294    | 0.1309    | 
+12      | 0.0023         | 0.1296    | 0.1308    | 
+13      | 0.0024         | 0.1296    | 0.1308    | 
+14      | 0.0024         | 0.1296    | 0.1308    | 
+15      | 0.0019         | 0.1294    | 0.1307    | 
+16      | 0.0018         | 0.1294    | 0.1308    | 
+17      | 0.0019         | 0.1293    | 0.1307    | 
+18      | 0.0018         | 0.1293    | 0.1307    | 
+19      | 0.0014         | 0.1293    | 0.1311    | 
+20      | 0.0016         | 0.1294    | 0.1309    | 
+21      | 0.0016         | 0.1294    | 0.1309    | 
+22      | 0.0016         | 0.1295    | 0.1309    | 
+23      | 0.0019         | 0.1295    | 0.1307    | 
+24      | 0.002          | 0.1296    | 0.1309    | 
+25      | 0.0023         | 0.1295    | 0.1307    | 
+26      | 0.0025         | 0.1294    | 0.1307    | 
+27      | 0.0233         | 0.1346    | 0.1358    | 
+28      | 0.0021         | 0.1294    | 0.1308    | 
+29      | 0.0019         | 0.1294    | 0.1307    | 
+30      | 0.0031         | 0.1295    | 0.1307    | 
+31      | 0.0022         | 0.1295    | 0.1308    | 
+32      | 0.0018         | 0.1293    | 0.1307    | 
+33      | 0.0017         | 0.1293    | 0.1308    | 
+34      | 0.0017         | 0.1293    | 0.1308    | 
+35      | 0.0016         | 0.1293    | 0.1307    | 
+36      | 0.0014         | 0.1293    | 0.1307    | 
+37      | 0.0017         | 0.1293    | 0.1308    | 
+38      | 0.0019         | 0.1293    | 0.1308    | 
+39      | 0.0019         | 0.1294    | 0.1307    | 
+40      | 0.0019         | 0.1293    | 0.1307    | 
+41      | 0.0019         | 0.1294    | 0.1307    | 
+42      | 0.0021         | 0.1295    | 0.1308    | 
+43      | 0.0022         | 0.1295    | 0.1308    | 
+44      | 0.002          | 0.1295    | 0.1307    | 
+45      | 0.0018         | 0.1294    | 0.1307    | 
+46      | 0.0016         | 0.1293    | 0.1306    | 
+47      | 0.0018         | 0.1293    | 0.1309    | 
+48      | 0.0019         | 0.1294    | 0.1307    | 
+49      | 0.0019         | 0.1294    | 0.1308    | 
+50      | 0.0019         | 0.1293    | 0.1308    | 
+51      | 0.0016         | 0.1293    | 0.1306    | 
+52      | 0.0017         | 0.1292    | 0.1308    | 
+53      | 0.0018         | 0.1293    | 0.1305    | 
+54      | 0.0018         | 0.1293    | 0.1306    | 
+55      | 0.0018         | 0.1293    | 0.1307    | 
+56      | 0.0019         | 0.1294    | 0.1307    | 
+57      | 0.0018         | 0.1294    | 0.1307    | 
+58      | 0.0018         | 0.1294    | 0.1308    | 
+59      | 0.0017         | 0.1294    | 0.1308    | 
+60      | 0.0018         | 0.1295    | 0.1306    | 
+61      | 0.002          | 0.1295    | 0.1309    | 
+62      | 0.0021         | 0.1294    | 0.1307    | 
+63      | 0.002          | 0.1293    | 0.1308    | 
+64      | 0.0023         | 0.1292    | 0.1309    | 
+65      | 0.0433         | 0.1355    | 0.1364    | 
+66      | 0.002          | 0.1295    | 0.1308    | 
+67      | 0.0021         | 0.1295    | 0.1308    | 
+68      | 0.0021         | 0.1295    | 0.1308    | 
+69      | 0.0021         | 0.1294    | 0.1308    | 
+70      | 0.0022         | 0.1296    | 0.1309    | 
+71      | 0.002          | 0.1295    | 0.1308    | 
+72      | 0.0023         | 0.1296    | 0.1309    | 
+73      | 0.0023         | 0.1295    | 0.1308    | 
+74      | 0.0021         | 0.1295    | 0.1309    | 
+75      | 0.0022         | 0.1294    | 0.1308    | 
+76      | 0.0019         | 0.1294    | 0.1307    | 
+77      | 0.0019         | 0.1294    | 0.1307    | 
+78      | 0.0018         | 0.1293    | 0.1307    | 
+79      | 0.0017         | 0.1293    | 0.1307    | 
+80      | 0.0016         | 0.1294    | 0.1307    | 
+81      | 0.0017         | 0.1293    | 0.1308    | 
+82      | 0.0018         | 0.1293    | 0.131     | 
+83      | 0.0019         | 0.1293    | 0.1307    | 
+84      | 0.0019         | 0.1294    | 0.1307    | 
+85      | 0.0018         | 0.1294    | 0.1308    | 
+86      | 0.0017         | 0.1293    | 0.1307    | 
+87      | 0.0016         | 0.1294    | 0.1307    | 
+88      | 0.0015         | 0.1293    | 0.1308    | 
+89      | 0.0015         | 0.1293    | 0.1309    | 
+90      | 0.0016         | 0.1293    | 0.1309    | 
+91      | 0.0016         | 0.1294    | 0.1307    | 
+92      | 0.0016         | 0.1294    | 0.1307    | 
+93      | 0.0016         | 0.1293    | 0.1307    | 
+94      | 0.0015         | 0.1293    | 0.1308    | 
+95      | 0.0015         | 0.1293    | 0.1309    | 
+96      | 0.0015         | 0.1293    | 0.1309    | 
+97      | 0.0014         | 0.1293    | 0.1309    | 
+98      | 0.0014         | 0.1293    | 0.1309    | 
+99      | 0.0015         | 0.1293    | 0.1309    | 
+100     | 0.0016         | 0.1292    | 0.131     | 
+--------------------------------------------------
+Finished sucessfully.
+ERR@10 on training data: 0.1369
+ERR@10 on validation data: 0.1383
+---------------------------------
+ERR@10 on test data: 0.1398

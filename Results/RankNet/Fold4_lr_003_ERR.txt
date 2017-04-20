@@ -1,0 +1,138 @@
+
+Discard orig. features
+Training data:	MSLR-WEB10K/Fold4/restructure_train.txt
+Test data:	MSLR-WEB10K/Fold4/restructure_test.txt
+Validation data:	MSLR-WEB10K/Fold4/restructure_vali.txt
+Feature vector representation: Dense.
+Ranking method:	RankNet
+Feature description file:	Unspecified. All features will be used.
+Train metric:	ERR@10
+Test metric:	ERR@10
+Highest relevance label (to compute ERR): 4
+Feature normalization: No
+
+[+] RankNet's Parameters:
+No. of epochs: 100
+No. of hidden layers: 1
+No. of hidden nodes per layer: 10
+Learning rate: 0.03
+
+Reading feature file [MSLR-WEB10K/Fold4/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_train.txt]... [Done.]            
+(5941 ranked lists, 71877 entries read)
+Reading feature file [MSLR-WEB10K/Fold4/restructure_vali.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_vali.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_vali.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_vali.txt]... [Done.]            
+(1983 ranked lists, 23910 entries read)
+Reading feature file [MSLR-WEB10K/Fold4/restructure_test.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_test.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_test.txt]: 0... Reading feature file [MSLR-WEB10K/Fold4/restructure_test.txt]... [Done.]            
+(1984 ranked lists, 24234 entries read)
+Initializing... [Done]
+-----------------------------------------
+Training starts...
+--------------------------------------------------
+#epoch  | % mis-ordered  | ERR@10-T  | ERR@10-V  | 
+        |   pairs        |           |           | 
+--------------------------------------------------
+1       | 0.0977         | 0.14      | 0.1366    | 
+2       | 0.0422         | 0.1308    | 0.1284    | 
+3       | 0.0305         | 0.1344    | 0.1291    | 
+4       | 0.0221         | 0.1343    | 0.1295    | 
+5       | 0.066          | 0.1356    | 0.1344    | 
+6       | 0.0505         | 0.1383    | 0.1327    | 
+7       | 0.0045         | 0.1312    | 0.1285    | 
+8       | 0.0609         | 0.1326    | 0.1316    | 
+9       | 0.005          | 0.1309    | 0.1285    | 
+10      | 0.0044         | 0.1312    | 0.1288    | 
+11      | 0.0073         | 0.1311    | 0.1285    | 
+12      | 0.0072         | 0.1316    | 0.1285    | 
+13      | 0.0044         | 0.1311    | 0.1286    | 
+14      | 0.0062         | 0.1316    | 0.1285    | 
+15      | 0.0953         | 0.1358    | 0.1353    | 
+16      | 0.0648         | 0.1337    | 0.1338    | 
+17      | 0.0039         | 0.1315    | 0.1284    | 
+18      | 0.0047         | 0.1313    | 0.1282    | 
+19      | 0.0046         | 0.131     | 0.1286    | 
+20      | 0.0042         | 0.1313    | 0.1288    | 
+21      | 0.0041         | 0.1313    | 0.1288    | 
+22      | 0.0042         | 0.1313    | 0.129     | 
+23      | 0.0043         | 0.1313    | 0.129     | 
+24      | 0.0043         | 0.1311    | 0.1289    | 
+25      | 0.0042         | 0.1311    | 0.1289    | 
+26      | 0.0042         | 0.1311    | 0.1289    | 
+27      | 0.0039         | 0.1313    | 0.1283    | 
+28      | 0.0039         | 0.1313    | 0.1283    | 
+29      | 0.0039         | 0.1312    | 0.1284    | 
+30      | 0.0039         | 0.1312    | 0.1285    | 
+31      | 0.004          | 0.1311    | 0.1289    | 
+32      | 0.004          | 0.1311    | 0.1288    | 
+33      | 0.004          | 0.1312    | 0.1287    | 
+34      | 0.0039         | 0.1312    | 0.1287    | 
+35      | 0.0039         | 0.1313    | 0.1286    | 
+36      | 0.0038         | 0.1313    | 0.1285    | 
+37      | 0.0039         | 0.1311    | 0.1288    | 
+38      | 0.0038         | 0.1311    | 0.1287    | 
+39      | 0.0038         | 0.1311    | 0.1287    | 
+40      | 0.0039         | 0.1312    | 0.1287    | 
+41      | 0.004          | 0.1313    | 0.1287    | 
+42      | 0.004          | 0.1313    | 0.1283    | 
+43      | 0.004          | 0.1312    | 0.1283    | 
+44      | 0.004          | 0.1313    | 0.1286    | 
+45      | 0.0039         | 0.1314    | 0.1286    | 
+46      | 0.0038         | 0.1313    | 0.1284    | 
+47      | 0.0037         | 0.1313    | 0.1284    | 
+48      | 0.0037         | 0.1312    | 0.1284    | 
+49      | 0.0037         | 0.1313    | 0.1284    | 
+50      | 0.0037         | 0.1313    | 0.1286    | 
+51      | 0.0037         | 0.1313    | 0.1286    | 
+52      | 0.0038         | 0.1313    | 0.1287    | 
+53      | 0.0038         | 0.1313    | 0.1288    | 
+54      | 0.0039         | 0.1313    | 0.1286    | 
+55      | 0.0037         | 0.1312    | 0.1285    | 
+56      | 0.0038         | 0.1311    | 0.1287    | 
+57      | 0.0038         | 0.1311    | 0.1288    | 
+58      | 0.0038         | 0.1311    | 0.1288    | 
+59      | 0.0038         | 0.1311    | 0.1288    | 
+60      | 0.0038         | 0.1312    | 0.1289    | 
+61      | 0.0038         | 0.1311    | 0.1288    | 
+62      | 0.0038         | 0.1313    | 0.1288    | 
+63      | 0.0038         | 0.1313    | 0.1288    | 
+64      | 0.0039         | 0.1313    | 0.1288    | 
+65      | 0.004          | 0.1313    | 0.1288    | 
+66      | 0.0041         | 0.1312    | 0.129     | 
+67      | 0.0041         | 0.1312    | 0.129     | 
+68      | 0.0041         | 0.1311    | 0.1288    | 
+69      | 0.0041         | 0.1311    | 0.1288    | 
+70      | 0.004          | 0.1312    | 0.1287    | 
+71      | 0.004          | 0.1312    | 0.1285    | 
+72      | 0.0039         | 0.1313    | 0.1286    | 
+73      | 0.0038         | 0.1313    | 0.1285    | 
+74      | 0.0038         | 0.1314    | 0.1285    | 
+75      | 0.0037         | 0.1314    | 0.1285    | 
+76      | 0.0037         | 0.1313    | 0.1284    | 
+77      | 0.0037         | 0.1313    | 0.1284    | 
+78      | 0.0037         | 0.1312    | 0.1284    | 
+79      | 0.0037         | 0.1313    | 0.1283    | 
+80      | 0.0038         | 0.1312    | 0.1284    | 
+81      | 0.0038         | 0.1313    | 0.1286    | 
+82      | 0.0038         | 0.1311    | 0.1288    | 
+83      | 0.0039         | 0.1311    | 0.1288    | 
+84      | 0.0039         | 0.1311    | 0.1288    | 
+85      | 0.0039         | 0.1311    | 0.1288    | 
+86      | 0.0038         | 0.1311    | 0.1288    | 
+87      | 0.0038         | 0.1311    | 0.1288    | 
+88      | 0.0039         | 0.1311    | 0.1288    | 
+89      | 0.004          | 0.1311    | 0.1288    | 
+90      | 0.004          | 0.1311    | 0.1288    | 
+91      | 0.004          | 0.1311    | 0.1288    | 
+92      | 0.004          | 0.1311    | 0.1288    | 
+93      | 0.004          | 0.1311    | 0.1288    | 
+94      | 0.0039         | 0.1312    | 0.1289    | 
+95      | 0.0041         | 0.1311    | 0.1289    | 
+96      | 0.0041         | 0.1313    | 0.1289    | 
+97      | 0.0042         | 0.1312    | 0.1289    | 
+98      | 0.0042         | 0.1312    | 0.1289    | 
+99      | 0.0042         | 0.1312    | 0.1289    | 
+100     | 0.0043         | 0.1312    | 0.1286    | 
+--------------------------------------------------
+Finished sucessfully.
+ERR@10 on training data: 0.14
+ERR@10 on validation data: 0.1366
+---------------------------------
+ERR@10 on test data: 0.1415

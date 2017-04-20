@@ -1,0 +1,137 @@
+
+Discard orig. features
+Training data:	MSLR-WEB10K/Fold1/restructure_train.txt
+Test data:	MSLR-WEB10K/Fold1/restructure_test.txt
+Validation data:	MSLR-WEB10K/Fold1/restructure_vali.txt
+Feature vector representation: Dense.
+Ranking method:	RankNet
+Feature description file:	Unspecified. All features will be used.
+Train metric:	NDCG@10
+Test metric:	NDCG@10
+Feature normalization: No
+
+[+] RankNet's Parameters:
+No. of epochs: 100
+No. of hidden layers: 1
+No. of hidden nodes per layer: 50
+Learning rate: 0.05
+
+Reading feature file [MSLR-WEB10K/Fold1/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_train.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_train.txt]... [Done.]            
+(5946 ranked lists, 72342 entries read)
+Reading feature file [MSLR-WEB10K/Fold1/restructure_vali.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_vali.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_vali.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_vali.txt]... [Done.]            
+(1983 ranked lists, 23526 entries read)
+Reading feature file [MSLR-WEB10K/Fold1/restructure_test.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_test.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_test.txt]: 0... Reading feature file [MSLR-WEB10K/Fold1/restructure_test.txt]... [Done.]            
+(1980 ranked lists, 24153 entries read)
+Initializing... [Done]
+-----------------------------------------
+Training starts...
+--------------------------------------------------
+#epoch  | % mis-ordered  | NDCG@10-T | NDCG@10-V | 
+        |   pairs        |           |           | 
+--------------------------------------------------
+1       | 0.1716         | 0.5022    | 0.5058    | 
+2       | 0.1625         | 0.4939    | 0.4994    | 
+3       | 0.1912         | 0.5012    | 0.5048    | 
+4       | 0.0433         | 0.4938    | 0.4975    | 
+5       | 0.2178         | 0.4912    | 0.4926    | 
+6       | 0.0584         | 0.4935    | 0.4978    | 
+7       | 0.0545         | 0.4942    | 0.4973    | 
+8       | 0.2207         | 0.5023    | 0.5009    | 
+9       | 0.1947         | 0.5019    | 0.5013    | 
+10      | 0.1101         | 0.491     | 0.4994    | 
+11      | 0.1999         | 0.4912    | 0.4915    | 
+12      | 0.0022         | 0.4961    | 0.5006    | 
+13      | 0.0204         | 0.4945    | 0.5       | 
+14      | 0.0251         | 0.4944    | 0.4993    | 
+15      | 0.0193         | 0.4944    | 0.4999    | 
+16      | 0.2078         | 0.4961    | 0.495     | 
+17      | 0.1056         | 0.4901    | 0.4947    | 
+18      | 0.0319         | 0.4944    | 0.4982    | 
+19      | 0.0011         | 0.4958    | 0.5005    | 
+20      | 0.0407         | 0.4938    | 0.4982    | 
+21      | 0.1276         | 0.4996    | 0.4997    | 
+22      | 0.0627         | 0.4927    | 0.4978    | 
+23      | 0.0213         | 0.4951    | 0.4989    | 
+24      | 0.1326         | 0.4987    | 0.499     | 
+25      | 3.0E-4         | 0.4961    | 0.4999    | 
+26      | 0.0152         | 0.4948    | 0.4998    | 
+27      | 0.1352         | 0.4908    | 0.4944    | 
+28      | 0.0359         | 0.4944    | 0.4977    | 
+29      | 0.1141         | 0.5008    | 0.5012    | 
+30      | 0.1058         | 0.4892    | 0.4972    | 
+31      | 3.0E-4         | 0.4961    | 0.4999    | 
+32      | 0.0071         | 0.4957    | 0.499     | 
+33      | 0.0171         | 0.4951    | 0.5003    | 
+34      | 0.0606         | 0.4938    | 0.4979    | 
+35      | 0.027          | 0.4934    | 0.4997    | 
+36      | 0.0214         | 0.4949    | 0.499     | 
+37      | 5.0E-4         | 0.4959    | 0.5       | 
+38      | 0.0466         | 0.4931    | 0.499     | 
+39      | 0.0058         | 0.4957    | 0.5017    | 
+40      | 0.0012         | 0.4956    | 0.5002    | 
+41      | 0.0623         | 0.4916    | 0.4976    | 
+42      | 0.0254         | 0.4948    | 0.4995    | 
+43      | 0.1285         | 0.4887    | 0.4956    | 
+44      | 0.1204         | 0.4973    | 0.4968    | 
+45      | 4.0E-4         | 0.496     | 0.4997    | 
+46      | 0.0012         | 0.4958    | 0.5006    | 
+47      | 0.085          | 0.4927    | 0.4979    | 
+48      | 0.0242         | 0.4948    | 0.4992    | 
+49      | 0.1685         | 0.4996    | 0.5075    | 
+50      | 0.0291         | 0.4943    | 0.5004    | 
+51      | 0.0913         | 0.4924    | 0.4957    | 
+52      | 0.1098         | 0.5056    | 0.5051    | 
+53      | 0.0012         | 0.4962    | 0.5003    | 
+54      | 8.0E-4         | 0.4959    | 0.5001    | 
+55      | 9.0E-4         | 0.4958    | 0.5003    | 
+56      | 0.0011         | 0.4959    | 0.5004    | 
+57      | 0.0011         | 0.4959    | 0.5006    | 
+58      | 0.0214         | 0.4947    | 0.4995    | 
+59      | 0.0906         | 0.4912    | 0.4963    | 
+60      | 0.0578         | 0.4972    | 0.4985    | 
+61      | 0.1123         | 0.4967    | 0.4991    | 
+62      | 0.1472         | 0.4916    | 0.4935    | 
+63      | 0.0125         | 0.4954    | 0.4993    | 
+64      | 4.0E-4         | 0.4961    | 0.5       | 
+65      | 4.0E-4         | 0.4959    | 0.4999    | 
+66      | 6.0E-4         | 0.4957    | 0.5       | 
+67      | 0.001          | 0.4958    | 0.5003    | 
+68      | 7.0E-4         | 0.4959    | 0.5       | 
+69      | 0.001          | 0.4958    | 0.5003    | 
+70      | 6.0E-4         | 0.4962    | 0.5001    | 
+71      | 0.0011         | 0.4959    | 0.5004    | 
+72      | 0.0011         | 0.4959    | 0.5006    | 
+73      | 0.0011         | 0.4958    | 0.5004    | 
+74      | 5.0E-4         | 0.4958    | 0.5       | 
+75      | 7.0E-4         | 0.4958    | 0.5001    | 
+76      | 0.0011         | 0.4958    | 0.5005    | 
+77      | 0.0012         | 0.4958    | 0.5007    | 
+78      | 0.0017         | 0.4958    | 0.5001    | 
+79      | 0.0011         | 0.4958    | 0.5006    | 
+80      | 0.0            | 0.4961    | 0.4997    | 
+81      | 0.0011         | 0.4958    | 0.5004    | 
+82      | 9.0E-4         | 0.496     | 0.5002    | 
+83      | 0.0189         | 0.4946    | 0.5002    | 
+84      | 0.0262         | 0.4948    | 0.4997    | 
+85      | 0.0972         | 0.5006    | 0.5031    | 
+86      | 0.1315         | 0.5041    | 0.5013    | 
+87      | 0.1833         | 0.4971    | 0.5       | 
+88      | 0.1553         | 0.5       | 0.4987    | 
+89      | 0.1306         | 0.4923    | 0.4968    | 
+90      | 0.163          | 0.4967    | 0.4969    | 
+91      | 0.2038         | 0.5062    | 0.5026    | 
+92      | 0.1219         | 0.4928    | 0.4932    | 
+93      | 0.1528         | 0.5       | 0.5009    | 
+94      | 0.1239         | 0.4909    | 0.4955    | 
+95      | 0.1461         | 0.4957    | 0.4925    | 
+96      | 0.0212         | 0.4945    | 0.4989    | 
+97      | 0.1432         | 0.4953    | 0.4968    | 
+98      | 0.0309         | 0.494     | 0.498     | 
+99      | 8.0E-4         | 0.4958    | 0.5002    | 
+100     | 9.0E-4         | 0.4957    | 0.5002    | 
+--------------------------------------------------
+Finished sucessfully.
+NDCG@10 on training data: 0.4996
+NDCG@10 on validation data: 0.5075
+---------------------------------
+NDCG@10 on test data: 0.4924
